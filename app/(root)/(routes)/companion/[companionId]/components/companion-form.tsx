@@ -7,7 +7,7 @@ import { Category, Companion } from "@prisma/client"
 import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Separator } from "@/components/ui/separator";
 import { useForm } from "react-hook-form";
-import { ImageUpload } from "./image-upload";
+import { ImageUpload } from "../../../../../../components/image-upload";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
